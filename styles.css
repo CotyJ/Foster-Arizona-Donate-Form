@@ -1,0 +1,119 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+/* Figma styles */
+
+.container { /* Full page width container */
+  display: flex;
+  height: 85.8125rem;
+  padding: 2.5rem 22.5rem 7.5rem 22.5rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.625rem;
+  align-self: stretch;
+
+  /* border for visual */
+  border: 1px solid red;
+}
+
+#form-container { /* inner container that contains the form itself. Centers the form */
+  display: flex;
+  width: 75rem;
+  height: 79.125rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.5rem;
+  flex-shrink: 0;
+}
+
+#donation-form-section { /* Inner container that contains form */
+  display: flex;
+  width: 75rem;
+  height: 79.125rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2.5rem;
+  flex-shrink: 0;
+
+  /* border for visual */
+  /* border: 1px solid blue; */
+}
+
+form { /* The form. Contains all inputs but NOT the button */
+  display: flex;
+  height: 68.25rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1.875rem;
+  flex-shrink: 0;
+
+  /* border for visual */
+  /* border: 2 solid green; */
+}
+
+legend {
+  color: #000;
+
+  font-family: 'Klinic Slab';
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.25rem; /* 180% */
+  letter-spacing: 0.125rem;
+  text-transform: uppercase;
+}
+
+#section {
+  display: flex;
+  width: 26rem;
+  padding: 0.625rem;
+  /* flex-direction: column; */
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+
+#section .contact-information {
+  display: flex;
+  width: 26rem;
+  padding: 0.625rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+
+#section input {
+  display: flex;
+  width: 26rem;
+  padding: 0.625rem;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+
+.donation-amount {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+  gap: 0.625rem;
+
+}
+
+.donate-button {
+  display: flex;
+  width: 6rem;
+  padding: 0.625rem;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 0.625rem;
+}
